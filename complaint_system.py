@@ -1,8 +1,3 @@
-import json
-import os
-
-DATA_FILE = "data/complaints.json"
-
 
 class Complaint:
     def __init__(self, complaint_id, user_name, description, status="Open"):
